@@ -53,4 +53,25 @@ Populated the Active Directory with users and groups.
   #
   
 ## Attacking the domain
+![Capture 1 (nmap)](https://github.com/user-attachments/assets/2e67e464-8130-4236-87cb-eb26088d1144)
+Getting the root domain name using NMAP on the Kali Linux machine.
+  
+![RID bruteforce](https://github.com/user-attachments/assets/d0ce165d-2c0d-46b1-9a8d-e458cb3715a1)
+Using NULL session RID cycling to gather usernames and groups.
+  
+![impacket script](https://github.com/user-attachments/assets/fe60a10b-1147-4e2c-86a6-dbdb64813571)
+Using Impacket GetNPUsers.py to find users without Kerberos authentication enabled and their password hash.
+  
+![john](https://github.com/user-attachments/assets/29df2708-a8d8-4682-be2e-20fe2f1ebd2c)
+Password cracked using John the Ripper and a password list.
+
+![bloodhound-python](https://github.com/user-attachments/assets/755c7685-4657-4152-9365-f2b9f0081e93)
+Bloodhound-python and the cracked password used to collect all data on the domain and store the information in json files.
+  
+![bloodhound capture](https://github.com/user-attachments/assets/3ec1e874-b7ba-4d39-a019-b21587b49d09)
+Visual representation of our user's groups and permissions accessed through Bloodhound's interface.
+
+
+
+  
 
