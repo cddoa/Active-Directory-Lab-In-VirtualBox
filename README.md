@@ -66,7 +66,7 @@ Using Impacket GetNPUsers.py to find users without Kerberos authentication enabl
 Password cracked using John the Ripper and a password list.
 
 ![bloodhound-python](https://github.com/user-attachments/assets/755c7685-4657-4152-9365-f2b9f0081e93)
-Bloodhound-python and the cracked password used to collect all data on the domain and store the information in json files.
+Bloodhound-python (LDAP enumeration) and the cracked password used to collect all data on the domain and store the information in json files.
   
 ![bloodhound capture](https://github.com/user-attachments/assets/3ec1e874-b7ba-4d39-a019-b21587b49d09)
 Visual representation of our user's groups and permissions accessed through Bloodhound's interface.
