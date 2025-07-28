@@ -71,6 +71,15 @@ Bloodhound-python (LDAP enumeration) and the cracked password used to collect al
 ![bloodhound capture](https://github.com/user-attachments/assets/3ec1e874-b7ba-4d39-a019-b21587b49d09)
 Visual representation of our user's groups and permissions accessed through Bloodhound's interface.
 
+## Testing Wazuh and Suricata's detection
+
+![nmap](https://github.com/user-attachments/assets/242738f3-4f95-4099-8f65-3a1d54e1f071)
+For the sake of testing Wazuh and Suricata's detection through the SPAN port, a firewall rule was added to allow the Kali machine to communicate with the DC from the LAN interface. Here Nmap was used through Kali to portscan the DC.
+
+![listened port status](https://github.com/user-attachments/assets/acd03ef4-6368-44b3-9cb9-b87412a9ddbd)
+
+
+
 
 
   
