@@ -75,11 +75,16 @@ Visual representation of our user's groups and permissions accessed through Bloo
 
 ![nmap](https://github.com/user-attachments/assets/242738f3-4f95-4099-8f65-3a1d54e1f071)
 For the sake of testing Wazuh and Suricata's detection through the SPAN port, a firewall rule was added to allow the Kali machine to communicate with the DC from the LAN interface. Here Nmap was used through Kali to portscan the DC.
-
+  
 ![listened port status](https://github.com/user-attachments/assets/acd03ef4-6368-44b3-9cb9-b87412a9ddbd)
+Wazuh alert "listened ports status changed" triggered by NMAP scan.
+  
+![testmyids](https://github.com/user-attachments/assets/d1a0845e-2bac-49b6-b648-0bed481334c9)
+Using testmyids.com to test Suricata's intrusion detection capabilities at the network level.
+  
 
-
-
+![Checkmyids](https://github.com/user-attachments/assets/f5b0520f-78a6-4fb7-b901-191c8004520d)
+The response from testmyids.com triggers these responses from Suricata. 
 
 
   
