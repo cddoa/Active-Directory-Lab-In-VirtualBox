@@ -80,12 +80,13 @@ For the sake of testing Wazuh and Suricata's detection through the SPAN port, a 
 Wazuh alert "listened ports status changed" triggered by NMAP scan.
   
 ![testmyids](https://github.com/user-attachments/assets/d1a0845e-2bac-49b6-b648-0bed481334c9)
+  
 Using testmyids.com to test Suricata's intrusion detection capabilities at the network level.
   
 
 ![Checkmyids](https://github.com/user-attachments/assets/f5b0520f-78a6-4fb7-b901-191c8004520d)
 The response from testmyids.com triggers these responses from Suricata. 
-
+  
 
   
 
