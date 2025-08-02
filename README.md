@@ -1,5 +1,5 @@
 # Active-Directory-Lab-In-VirtualBox
-
+Virtual Active Directory Lab made in VirtualBox
 ## Objective
 The goal of this lab is to build, configure and exploit an Active Directory environment to simulate an attack scenario in an enterprise network. The lab consists of a pfSense firewall/router to manage the internal network, a Windows Server domain controller, two Windows 10 client machines, a Kali Linux machine as the attacking platform and an Ubuntu machine hosting a Wazuh server with Suricata for real-time defensive monitoring. The lab provides a controlled environment for exploring common vulnerabilities, defensive methods and attacks within a Windows domain network.
 
