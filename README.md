@@ -1,9 +1,25 @@
 # Active-Directory-Lab-In-VirtualBox
 
 ## Objective
-The goal of this lab is to build, configure and exploit an Active Directory environment to simulate an attack scenario in an enterprise network. The lab consists of a pfSense firewall/router to manage the internal network, a Windows Server domain controller, two Windows 10 client machines, a Kali Linux machine as the attacking platform and an Ubuntu machine hosting a Wazuh server with Suricata for real-time defensive monitoring. The lab provides a controlled environment for exploring common vulnerabilities, defensive methods and attacks within a Windows domain network.
+The goal of this lab is to build, configure and exploit an Active Directory environment to simulate an attack scenario in an enterprise network. The lab consists of a pfSense firewall/router to manage the internal network, a Windows Server domain controller, two Windows 10 client machines, a Kali Linux machine as the attacking platform and an Amazon Linux machine hosting a Wazuh server with Suricata for real-time defensive monitoring. The lab provides a controlled environment for exploring common vulnerabilities, defensive methods and attacks within a Windows domain network.
+
+## Tools Used
+- **Virtualization**: VirtualBox
+- **Firewall & Routing**: pfSense
+- **Domain Services**: Windows Server 2019 (AD DS, DNS, DHCP)
+- **Clients**: Windows 10
+- **Attack Platform**: Kali Linux
+- **Monitoring**: Wazuh (SIEM), Suricata (IDS)
+- **Tools**: Nmap, Impacket, BloodHound, John the Ripper, testmyids.com
 
 ## Skills Learned
+- Configured Windows Server 2019 as Domain Controller (AD DS, DNS, DHCP)
+- Created pfSense firewall rules to isolate subnets and manage internal network
+- Deployed and configured Wazuh SIEM for real-time log collection and analysis
+- Integrated Suricata IDS for network-level intrusion detection through a SPAN port
+- Performed reconnaissance and enumeration with Nmap and RID cycling
+- Exploited users without Kerberos authentication with Impacket’s GetNPUsers
+- Simulated detection of malicious activities with NMAP and testmyids.com
 
 ## Lab Diagram
 <img width="773" height="758" alt="Host machine" src="https://github.com/user-attachments/assets/e608d104-711e-4896-afe1-01107ca1d433" />
@@ -79,7 +95,7 @@ Visual representation of our user's groups and permissions accessed through Bloo
 #
 ## Testing Wazuh and Suricata's detection
   
-During the previous portion of this lab I bdid not account for the fact that Suricata would not be able to detect traffic between two machines on the same subnet. For the sake of testing Wazuh and Suricata's detection through the SPAN port, a firewall rule was added to allow the Kali machine to communicate with the DC from the LAN interface.
+During the previous portion of this lab I did not account for the fact that Suricata would not be able to detect traffic between two machines on the same subnet. For the sake of testing Wazuh and Suricata's detection through the SPAN port, a firewall rule was added to allow the Kali machine to communicate with the DC from the LAN interface.
 
 #
 ![nmap](https://github.com/user-attachments/assets/242738f3-4f95-4099-8f65-3a1d54e1f071)
