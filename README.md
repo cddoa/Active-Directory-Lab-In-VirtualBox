@@ -94,7 +94,10 @@ Visual representation of our user's groups and permissions accessed through Bloo
 
 #
 ## Testing Wazuh and Suricata's detection
-  
+
+<img width="1249" height="606" alt="image" src="https://github.com/user-attachments/assets/c5dc76f1-fa99-47a8-b89e-e57e7d238b9b" />
+
+#
 During the previous portion of this lab I did not account for the fact that Suricata would not be able to detect traffic between two machines on the same subnet. For the sake of testing Wazuh and Suricata's detection through the SPAN port, a firewall rule was added to allow the Kali machine to communicate with the DC from the LAN interface.
 
 #
