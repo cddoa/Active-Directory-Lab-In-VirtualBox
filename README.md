@@ -12,7 +12,7 @@ The goal of this lab is to build, configure and exploit an Active Directory envi
 - **Monitoring**: Wazuh (SIEM), Suricata (IDS)
 - **Tools**: Nmap, Impacket, BloodHound, John the Ripper, testmyids.com
 
-## Skills Learned
+## Skills Demonstrated
 - Configured Windows Server 2019 as Domain Controller (AD DS, DNS, DHCP)
 - Created pfSense firewall rules to isolate subnets and manage internal network
 - Deployed and configured Wazuh SIEM for real-time log collection and analysis
